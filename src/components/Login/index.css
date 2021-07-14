@@ -1,0 +1,150 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+      116.64deg,
+      rgba(0, 0, 0, 0.8) 0.46%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url('../../assets/netflixBackground.png');
+  background-size: cover;
+}
+
+
+
+@media (max-width: 577px) {
+  .login-form-container {
+    background: #0c0b10;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 456px;
+  height: 440px;
+  padding: 30px;
+
+  background: #0c0b10;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+@media (max-width: 577px) {
+  .form-container {
+    width: 100%;
+    background-color: transparent;
+  }
+}
+
+.sign-in-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+  text-align: center;
+
+  /* General/White */
+
+  color: #ffffff;
+}
+
+@media (max-width: 577px) {
+  .sign-in-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-self: stretch;
+    margin-bottom: 5px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.username-input-field {
+  font-size: 14px;
+  height: 40px;
+  background: #333333;
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+.username-input-field::placeholder {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* Light / orange / 400 */
+
+  color: #fb923c;
+}
+
+.login-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 20px;
+  height: 40px;
+
+  background: #e50914;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+@media (max-width: 577px) {
+  .login-button {
+    align-self: stretch;
+    justify-content: center;
+  }
+}
+
+.error-message {
+  align-self: start;
+  margin-top: 6px;
+  margin-bottom: 0px;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* Light / orange / 400 */
+
+  color: #fb923c;
+}

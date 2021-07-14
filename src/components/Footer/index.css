@@ -1,0 +1,44 @@
+.contact-us-icon {
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.contact-us-section {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.contact-us-heading {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .contact-us-icon {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .contact-us-icons-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .contact-us-section {
+    height: 100px;
+  }
+}

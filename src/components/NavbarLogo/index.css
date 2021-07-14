@@ -1,0 +1,162 @@
+.m-vector {
+  width: 25.9px;
+  height: 38.58px;
+  position: absolute;
+  left: 11.46%;
+  right: 86.74%;
+  top: 12.92%;
+  bottom: 95.79%;
+}
+
+@media (min-width: 767px and max-width: 1000px) {
+  .m-vector {
+    width: 15.9px;
+    height: 32.58px;
+    right: 84.74%;
+    left: 9.46%;
+  }
+}
+
+.o-vector {
+  width: 18.73px;
+  height: 36.76px;
+  position: absolute;
+  left: 13.69%;
+  right: 85.01%;
+  top: 12.6%;
+  bottom: 94.41%;
+}
+
+@media (min-width: 767px and max-width: 1000px) {
+  .o-vector {
+    width: 10.9px;
+    height: 32.76px;
+    left: 12.69%;
+    right: 83.01%;
+  }
+}
+
+.v-vector {
+  width: 21.3px;
+  height: 35.48px;
+  position: absolute;
+  left: 15.31%;
+  right: 83.22%;
+  top: 12.92%;
+  bottom: 95.98%;
+}
+
+@media (min-width: 767px and max-width: 1000px) {
+  .v-vector {
+    width: 15.3px;
+    height: 29.48px;
+  }
+}
+
+.i-vector {
+  width: 6.17px;
+  height: 35.74px;
+  position: absolute;
+  left: 17.14%;
+  right: 82.43%;
+  top: 12.63%;
+  bottom: 94.46%;
+}
+
+@media (min-width: 767px and max-width: 1000px) {
+  .i-vector {
+    width: 3.9px;
+    height: 29.76px;
+  }
+}
+
+.e-vector {
+  width: 16.85px;
+  height: 36.78px;
+  position: absolute;
+  left: 18.03%;
+  right: 80.8%;
+  top: 11.92%;
+  bottom: 95.9%;
+}
+
+@media (min-width: 767px and max-width: 1000px) {
+  .e-vector {
+    width: 10.9px;
+    height: 29.76px;
+  }
+}
+
+.s-vector {
+  width: 18.37px;
+  height: 38.7px;
+  position: absolute;
+  left: 19.56%;
+  right: 79.17%;
+  top: 12.6%;
+  bottom: 94.26%;
+}
+
+@media (min-width: 767px and max-width: 1000px) {
+  .s-vector {
+    width: 12.9px;
+    height: 32.76px;
+  }
+}
+
+@media (max-width: 767px) {
+  .m-vector {
+    width: 19.18px;
+    height: 26.71px;
+    position: absolute;
+    left: 8.89%;
+    right: 85.78%;
+    top: 20.63%;
+    bottom: 94.49%;
+  }
+  .o-vector {
+    width: 13.88px;
+    height: 25.45px;
+    position: absolute;
+    left: 15.49%;
+    right: 80.65%;
+    top: 20.71%;
+    bottom: 94.41%;
+  }
+  .v-vector {
+    width: 15.78px;
+    height: 24.56px;
+    position: absolute;
+    left: 20.29%;
+    right: 75.33%;
+    top: 20.62%;
+    bottom: 94.72%;
+  }
+  .i-vector {
+    width: 4.57px;
+    height: 24.74px;
+    position: absolute;
+    left: 25.72%;
+    right: 73.01%;
+    top: 20.74%;
+    bottom: 94.46%;
+  }
+  .e-vector {
+    width: 12.48px;
+    height: 25.47px;
+    position: absolute;
+    left: 28.37%;
+    right: 68.17%;
+    top: 20.74%;
+    bottom: 94.38%;
+  }
+  .s-vector {
+    width: 13.61px;
+    height: 26.79px;
+    position: absolute;
+    left: 32.89%;
+    right: 63.33%;
+    top: 20.71%;
+    bottom: 94.26%;
+  }
+}

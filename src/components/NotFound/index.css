@@ -1,0 +1,89 @@
+.not-found-navbar {
+  background-color: #131313;
+  height: 110px;
+}
+
+.not-found-section {
+  background-image: url('../../assets/notfound.png');
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.not-found-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 125px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.not-found-description {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  margin-top: 5px;
+
+  color: #ffffff;
+  width: 40%;
+}
+
+.not-found-button {
+  background: #ffffff;
+  border-radius: 4px;
+  border: 0px;
+  padding: 10px 15px;
+  color: #171f46;
+  cursor: pointer;
+  outline: none;
+}
+
+.not-found-error-heading {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.error {
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .not-found-error-heading {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .not-found-description {
+    font-size: 18px;
+    line-height: 20px;
+    width: 75%;
+  }
+  .not-found-heading {
+    font-size: 50px;
+  }
+  .not-found-navbar {
+    height: 80px;
+  }
+}

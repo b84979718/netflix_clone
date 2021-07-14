@@ -1,0 +1,80 @@
+.home-background {
+  background: #131313;
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+
+.spinner-background {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.popular-movies-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-movies-container {
+  min-height: 80vh;
+  list-style-type: none;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 65px;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .popular-movies-container {
+    padding-top: 100px;
+    width: 95%;
+  }
+}
+
+.pages-paragraph {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Light / blue-gray / 300 */
+  color: #cbd5e1;
+}
+
+.link1 {
+  outline: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.less-than {
+  border: 2px solid #d7dfe9;
+  padding: 1px 5px;
+  border-radius: 2px;
+  margin-right: 7px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .less-than {
+    padding: 1px 5px;
+  }
+  .pages-paragraph {
+    line-height: 18px;
+    font-size: 15px;
+  }
+}

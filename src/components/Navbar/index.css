@@ -1,0 +1,186 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+}
+
+.navbar-first-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #13131320;
+  height: 60px;
+}
+
+.home-navbar {
+  position: absolute;
+  left: 23.82%;
+  right: 73.26%;
+  top: 2.25%;
+  bottom: 96.21%;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: -0.355556px;
+}
+
+.popular-navbar {
+  position: absolute;
+  left: 28.4%;
+  right: 67.85%;
+  top: 2.25%;
+  bottom: 96.21%;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: -0.355556px;
+}
+
+@media (max-width: 1000px) {
+  .popular-navbar {
+    left: 31.4%;
+    right: 64.85%;
+    top: 2.25%;
+    bottom: 96.21%;
+  }
+}
+
+.active-one {
+  color: #ffffff;
+}
+
+.passive-one {
+  color: #ffffff90;
+}
+
+.navbar-second-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .navbar-second-container {
+    margin-left: 50px;
+  }
+}
+
+.search-icon {
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 567px) {
+  .search-icon {
+    font-size: 50px;
+    margin-right: 4px;
+  }
+}
+
+.search-input {
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  color: #ffffff;
+  margin-left: 10px;
+  overflow-x: auto;
+}
+
+.search-input-container {
+  background-color: transparent;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 0px;
+}
+
+@media (max-width: 576px) {
+  .search-input-container {
+    width: 95px;
+  }
+}
+
+.search-input-container1 {
+  border: 1px solid #ffffff;
+}
+
+.profile-image {
+  font-size: 25px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .profile-image {
+    display: none;
+  }
+  .popular-navbar {
+    display: none;
+  }
+  .home-navbar {
+    display: none;
+  }
+}
+
+.bar-icon {
+  font-size: 25px;
+  color: #ffffff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .bar-icon {
+    display: none;
+  }
+}
+
+.navbar-second-section-container {
+  background: #13131320;
+}
+
+.navbar-second-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar-second-section-heading {
+  font-size: 15px;
+  font-family: 'HK Grotesk';
+}
+
+.navbar-second-section-link {
+  text-decoration: none;
+  outline: none;
+}
+
+.cross-icon {
+  color: #ffffff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.display {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .navbar-second-section {
+    display: none;
+  }
+}

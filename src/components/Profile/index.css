@@ -1,0 +1,117 @@
+.profile-navbar {
+  background-color: #131313;
+  height: 120px;
+}
+
+@media (max-width: 767px) {
+  .profile-navbar {
+    height: 90px;
+  }
+}
+
+.profile-first-section {
+  width: 80%;
+  margin: auto;
+}
+
+.profile-account-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #131313;
+}
+
+.horizontal-line {
+  border-radius: 10px;
+  border-color: #cbd5e1;
+}
+
+.membership-container {
+  display: flex;
+  align-items: center;
+}
+
+.member-ship-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  margin-right: 20px;
+
+  /* Light / blue-gray / 400 */
+  color: #94a3b8;
+}
+
+.username-heading {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+
+  /* Light / blue-gray / 800 */
+  color: #1e293b;
+}
+
+.password-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  margin-top: 5px;
+
+  /* Light / blue-gray / 500 */
+  color: #64748b;
+}
+
+.ultra-hd {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+
+  /* Light / blue-gray / 800 */
+  color: #1e293b;
+  border: 2px solid #1e293b;
+  margin-left: 10px;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.logout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.logout-button {
+  background: #e50914;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .ultra-hd {
+    font-size: 14px;
+  }
+  .password-heading {
+    font-size: 18px;
+  }
+  .username-heading {
+    font-size: 18px;
+  }
+  .member-ship-heading {
+    font-size: 18px;
+  }
+}

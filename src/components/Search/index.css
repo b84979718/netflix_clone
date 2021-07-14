@@ -1,0 +1,56 @@
+.search-heading-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.home-search-background {
+  background: #131313;
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: 0px;
+}
+
+.search-heading {
+  color: #ffffff;
+  font-size: 50px;
+  width: 40%;
+  text-align: center;
+  font-family: 'Bree Serif';
+}
+
+.search-not-found-image {
+  width: 45%;
+}
+
+.search-not-found-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .search-heading {
+    font-size: 20px;
+    width: 70%;
+  }
+  .search-not-found-image {
+    width: 80%;
+  }
+  .search-not-found-heading {
+    font-size: 18px;
+    text-align: center;
+    width: 85%;
+  }
+}
+
+.pages-1 {
+  padding-bottom: 50px;
+}
